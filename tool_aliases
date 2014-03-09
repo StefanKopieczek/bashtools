@@ -1,0 +1,3 @@
+fd() {
+    cd $(python ~/tools/fd/fd.py $1 $2)
+}
