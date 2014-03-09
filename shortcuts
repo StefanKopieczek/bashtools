@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#$ If bashtools is not in your HOME directory, change the line below.
+LOCATION="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+fd() {
+    cd $(python $LOCATION/fd/fd.py $1 $2)
+}
