@@ -1,8 +1,9 @@
 bashtools
 =========
 
-Collection of useful bash tools I've written
+Bashtools is a collection of useful tools for BASH.
 
+It's powerful and easy to set up - just add one line to your .bashrc and you're away!
 
 Requirements
 ============
