@@ -13,16 +13,15 @@ Requirements
 Installation
 ============
 
-1.) Check out the repository.
-2.) In your .bashrc file, add a line `. <path_to_bashtools>\shortcuts`.
+1.) Check out the repository.    
+2.) In your .bashrc file, add a line `. <path_to_bashtools>/shortcuts`.    
 3.) Enjoy your newfound efficiency!
 
 Tools
 =====
 
 ###fd - like cd, but awesome
-fd is a powerful upgrade of the standard UNIX 'cd' command.
-
+fd is a powerful upgrade of the standard UNIX 'cd' command.    
 It supports prefix matching and recursive folder search.
 
 Usage: `fd DIRECTORY\_PREFIX [start-level]`
