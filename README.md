@@ -24,7 +24,7 @@ Tools
 fd is a powerful upgrade of the standard UNIX 'cd' command.    
 It supports prefix matching and recursive folder search.
 
-Usage: `fd DIRECTORY_PREFIX [start-level]`
+> Usage: `fd DIRECTORY_PREFIX [start-level]`
 
 fd searches through all subdirectories of your current directory, and if it
 finds a directory starting with the term you gave it, it makes that your
