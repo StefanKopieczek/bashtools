@@ -13,11 +13,16 @@ def finddirs(dirname, startdir, prefix=True):
 
        If prefix is True, match any folders which start with dirname.
        Otherwise, match any folders whose name is precisely dirname.
+       All matches ignore case.
     """
-    is_match = dirname.__eq__
+    lowerdir = dirname.lower()
+    is_match = None
     if prefix:
         def is_match(directory):
-            return directory.startswith(dirname)
+            return directory.lower().startswith(lowerdir)
+    else:
+        def is_match(directory):
+            return directory.lower() == lowerdir
 
     dirs_on_current_level = [startdir]
 

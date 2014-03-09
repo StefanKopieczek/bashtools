@@ -28,7 +28,8 @@ It supports prefix matching and recursive folder search.
 
 fd searches through all subdirectories of your current directory, and if it
 finds a directory starting with the term you gave it, it makes that your
-current working directory.
+current working directory.    
+fd ignores case in search terms.
 
 fd will choose directories higher up the hierarchy in preference to those that
 are several subfolders deep. If there are multiple matches in the highest
